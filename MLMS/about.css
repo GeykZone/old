@@ -1,0 +1,112 @@
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 909px;}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 1200px) {
+
+  .nav
+  {
+    margin-top: 20px;
+  }
+
+  .sidenav
+  {
+    padding-top: 20px;
+  }
+
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .row.content {height: auto;}
+
+  .logo
+  {
+    width: 200px !important; height: 200px!important;
+  }
+
+  .logohome
+  {
+    width:800px; height:auto; margin-top:100px !important; display: block; margin-left: auto; margin-right: auto;
+      margin-bottom: 50px;
+  }
+
+  .aboutlogo
+  {
+    width:800px; height:auto; margin-top:20px !important; display: block; margin-left: auto; margin-right: auto;
+      margin-bottom: 50px;
+
+  }
+
+  .sidenav {
+    height: 340px !important;
+    padding: 15px;
+  }
+  .row.content {height: auto;}
+
+  footer
+  {
+    margin-top: 20px;
+
+  }
+
+  .aboutSystem
+  {
+    text-align: justify !important;
+    width: 90% !important;
+    font-size: 14px !important;
+    margin-bottom: 20px;
+    margin-top: -50px;
+  }
+
+
+
+
+}
+
+
+/* Side nav button css */
+a
+{
+   color: black;
+   transition: 0.5s;
+   font-weight: bold;
+}
+
+ul.nav a:hover
+{
+  color: #fff !important;
+  background-color: #AAAAAA;
+}
+
+.active a
+{
+color: #fff !important;
+background-color: #0074D9 !important;
+}
+
+/*for logo*/
+.logoTittle
+{
+margin-bottom:-35px; margin-top:-50px;
+}
+
+
+}

@@ -1,0 +1,342 @@
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 909px;}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 900px;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+  margin-top: 0px;
+}
+
+
+.adminLog
+{
+width: 450px;
+
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 1200px) {
+
+  .nav
+  {
+    margin-top: 20px;
+  }
+
+  .sidenav
+  {
+    padding-top: 20px;
+  }
+
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .row.content {height: auto;}
+
+  .logo
+  {
+    width: 200px !important; height: 200px!important;
+  }
+
+  .logohome
+  {
+    margin-top: 50px !important;
+    width: 250px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;}
+
+  footer
+  {
+    margin-top: 20px;
+  }
+
+  .adminLog
+  {
+  width: 80%;
+
+  }
+  .container_for_body_sidebar
+  {
+    margin-bottom: 0px !important;
+  }
+
+
+
+}
+
+
+/* Side nav button css */
+a
+{
+   color: black;
+   transition: 0.5s;
+   font-weight: bold;
+}
+
+ul.nav a:hover
+{
+  color: #fff !important;
+  background-color: #AAAAAA;
+}
+
+.active a
+{
+color: #fff !important;
+background-color: #0074D9 !important;
+}
+
+/*for logo*/
+.logoTittle
+{
+margin-bottom:-35px; margin-top:-50px;
+}
+
+/*for submit botton*/
+
+/* CSS */
+.submitButton {
+  backface-visibility: hidden;
+  background:  #0074D9;
+  border: 0;
+  border-radius: .375rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,Helvetica,sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  line-height: 1.3;
+  padding: 1rem 1.25rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submitButton:disabled {
+  color: #787878;
+  cursor: auto;
+}
+
+.submitButton:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.submitButton:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+.submitButton:focus {
+  outline: 0 solid transparent;
+}
+
+.submitButton:focus:before {
+  border-width: .125rem;
+  content: "";
+  left: calc(-1*.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1*.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.submitButton:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.submitButton:not(:disabled):active {
+  transform: translateY(.125rem);
+}
+
+
+/*modal button */
+
+/* CSS */
+
+.modalBotton {
+  border-radius: 4px;
+  background-color:#27ae60;
+  border: none;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  color: #fff;
+  margin-bottom: -20px;
+}
+
+
+.modalBotton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.modalBotton span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.modalBotton:hover span {
+  padding-right: 25px;
+}
+
+.modalBotton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/*dropdown button*/
+
+.saldropdown {
+  backface-visibility: hidden;
+  background:  #0074D9;
+  border: 0;
+  border-radius: .375rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,Helvetica,sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  line-height: 1.3;
+  padding: 1rem 1.25rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.saldropdown:disabled {
+  color: #787878 !important;
+  cursor: auto;
+}
+
+.saldropdown:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.saldropdown:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+.saldropdown:focus {
+  outline: 0 solid transparent;
+}
+
+.saldropdown:focus:before {
+  border-width: .125rem;
+  content: "";
+  left: calc(-1*.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1*.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.saldropdown:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.saldropdown:not(:disabled):active {
+  transform: translateY(.125rem);
+}
+
+
+
+/*close dropdown button*/
+.closedropdown {
+  backface-visibility: hidden;
+  background:  #9c1006;
+  border: 0;
+  border-radius: .375rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,Helvetica,sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  line-height: 1.3;
+  padding: 1rem 1.25rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.closedropdown:disabled {
+  color: #787878 !important;
+  cursor: auto;
+}
+
+.closedropdown:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.closedropdown:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+.closedropdown:focus {
+  outline: 0 solid transparent;
+}
+
+.closedropdown:focus:before {
+  border-width: .125rem;
+  content: "";
+  left: calc(-1*.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1*.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.closedropdown:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.closedropdown:not(:disabled):active {
+  transform: translateY(.125rem);
+}
