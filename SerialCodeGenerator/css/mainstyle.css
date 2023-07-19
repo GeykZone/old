@@ -1,0 +1,228 @@
+
+body
+{
+  font-family: Arial;
+  margin: auto;
+  background: url(../image/mainbackground.jpg) no-repeat center fixed;
+  background-size: cover;
+
+}
+
+.head
+{
+  color: rgba(51, 132, 222, 0.9);
+  position: relative;
+  padding: 10px 0px 10px 10px;
+  background-color: rgb(0, 0, 0,0.5);
+  width: 600px;
+  margin:auto;
+  border-radius: 30px;
+  top: 50px;
+  text-align: center;
+  border: 5px solid rgba(51, 132, 222, 0.9);
+
+}
+
+.small_form
+{
+  position: relative;
+  padding: 50px;
+  background-color: rgb(0, 0, 0,0.5);
+  width: 500px;
+  margin:auto;
+  border-radius: 20px;
+  top: 80px;
+  border: 5px solid rgba(51, 132, 222, 0.9);
+
+}
+
+form
+{
+  height: 300px;
+}
+
+.inside
+{
+  position: absolute;
+  top: 100px;
+}
+
+.serial_code_input
+{
+  position: absolute;
+  top: -30px;
+  left: 1px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 1px 0px 0px 10px;
+  width: 277px;
+  font-size: 25px;
+  color: white;
+  outline: none;
+  cursor: default;
+  background-color: rgba(105, 136, 197, 1);
+}
+
+.product_name_input
+{
+  position: absolute;
+  left: 3px;
+  top: 65px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 1px 0px 0px 10px;
+  width: 465px;
+  font-size: 25px;
+  color: Black;
+  text-transform: capitalize;
+}
+
+.price_input
+{
+  position: absolute;
+  left: 4px;
+  top: 160px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 1px 0px 0px 10px;
+  width: 277px;
+  font-size: 25px;
+  color: Black;
+  text-transform: capitalize;
+}
+
+.serial_code_label
+{
+  position: relative;
+  top:-50px;
+  color: rgba(51, 132, 222, 0.9);
+  font-weight: bold;
+  text-transform: capitalize;
+  left: 1px;
+
+}
+
+.product_name_label
+{
+  position: relative;
+  top: -8px;
+  color: rgba(51, 132, 222, 0.9);
+  font-weight: bold;
+  text-transform: capitalize;
+  left: 5px;
+}
+
+.price_label
+{
+  position: relative;
+  top: 34px;
+  color: rgba(51, 132, 222, 0.9);
+  font-weight: bold;
+  text-transform: capitalize;
+  left: 5px;
+}
+
+.save_button
+{
+  position: absolute;
+  width: 180px;
+  top: 258px;
+  left: 354px;
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgba(0, 206, 255, 1);
+  color:  rgba(51, 132, 222, 1 );
+  font-weight: bold;
+  border: 5px solid rgba(0, 109, 217, 1);
+  transition: 0.51s;
+}
+
+.save_button:hover
+{
+  background-color: rgba(51, 132, 222, 1 );
+  color: rgba(0, 206, 255, 1);
+  border: 5px solid rgba(0, 206, 255, 1);
+}
+
+.generate_button
+{
+  position: absolute;
+  width: 180px;
+  top: 68px;
+  left: 355px;
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgba(0, 206, 255, 1);
+  color:  rgba(51, 132, 222, 1 );
+  font-weight: bold;
+  border: 5px solid rgba(0, 109, 217, 1);
+  transition: 0.51s;
+}
+
+.generate_button:hover
+{
+  background-color: rgba(51, 132, 222, 1 );
+  color: rgba(0, 206, 255, 1);
+  border: 5px solid rgba(0, 206, 255, 1);
+}
+
+.database_div
+{
+  position: relative;
+  padding: 10px;
+  background-color: rgb(0, 0, 0,0.5);
+  width: 580px;
+  margin:auto;
+  border-radius: 20px;
+  top: 110px;
+  text-align: center;
+  border: 5px solid rgba(51, 132, 222, 0.9);
+  height: 200px;
+
+}
+
+.database_button_class
+{
+  position: absolute;
+  width: 500px;
+  top: 30px;
+  left: 53px;
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgba(0, 206, 255, 1);
+  color:  rgba(51, 132, 222, 1 );
+  font-weight: bold;
+  border: 5px solid rgba(0, 109, 217, 1);
+  transition: 0.51s;
+}
+
+.database_button_class:hover
+{
+  background-color: rgba(51, 132, 222, 1 );
+  color: rgba(0, 206, 255, 1);
+  border: 5px solid rgba(0, 206, 255, 1);
+}
+
+.watermark
+{
+  position: absolute;
+  width: 320px;
+  top: 100px;
+  left: 40px;
+  opacity: 91%;
+}
+
+.tools
+{
+  position: absolute;
+  width: 150px;
+  top: 110px;
+  left: 380px;
+  opacity: 91%;
+}

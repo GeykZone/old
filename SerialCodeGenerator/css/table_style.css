@@ -1,0 +1,129 @@
+body
+{
+  padding: 20px;
+  margin: auto;
+  background: url(../image/mainbackground.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+*
+{
+  box-sizing: border-box;
+}
+
+.my_table
+{
+  width: 85%;
+  border-collapse: collapse;
+  border-bottom-left-radius: 10px;
+  border-Top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my_table td, .my_table th
+{
+  padding: 12px 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+.my_table th
+{
+  background-color: darkblue;
+  color: #ffffff;
+}
+
+.my_table tbody tr
+{
+  background-color: rgba(0, 127, 176, 1);
+  color: rgba(0, 255, 255, 1);
+
+}
+
+.my_table tbody tr:nth-child(even)
+{
+  background-color: rgba(0, 255, 255, 1);
+  color: rgba(0, 127, 176, 1);
+}
+
+.holder
+{
+  color: rgba(51, 132, 222, 0.9);
+  position: relative;
+  padding: 100px 40px 100px 40px;
+  background-color: rgb(0, 0, 0,0.5);
+  width: 1100px;
+  margin:auto;
+  border-radius: 30px;
+  top: -3px;
+  text-align: center;
+  border: 5px solid rgba(51, 132, 222, 0.9);
+}
+
+.home_button
+{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: -30px;
+  width: 85%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgba(0, 206, 255, 1);
+  color:  rgba(51, 132, 222, 1 );
+  font-weight: bold;
+  border: 5px solid rgba(0, 109, 217, 1);
+  transition: 0.51s;
+  font-size: 20px;
+}
+
+.home_button:hover
+{
+  background-color: rgba(51, 132, 222, 1 );
+  color: rgba(0, 206, 255, 1);
+  border: 5px solid rgba(0, 206, 255, 1);
+}
+
+.search
+{
+  position: relative;
+  left: -280px;
+  top: 30px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 1px 0px 0px 10px;
+  width: 300px;
+  font-size: 16px;
+  color: Black;
+  text-transform: capitalize;
+}
+
+.delete_button_class
+{
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgba(0, 206, 255, 1);
+  color:  rgba(51, 132, 222, 1 );
+  font-weight: bold;
+  border: 1px solid rgba(0, 100, 149, 1);
+  transition: 0.51s;
+  width: 180px;
+}
+
+.delete_button_class:hover
+{
+
+    background-color: rgba(51, 132, 222, 1 );
+    color: rgba(0, 206, 255, 1);
+    border: 1px solid rgba(0, 206, 255, 1);
+
+}
